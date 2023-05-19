@@ -1,0 +1,134 @@
+/* the main page data css */
+/* new csssss */
+/* css for the tabel */
+/* default page csss */
+.maindata {
+  background-color: #282828;
+  color: aliceblue;
+}
+.cardp1 {
+  border: none;
+  width: 28rem;
+  margin: 0.75rem;
+  height: 100%;
+}
+.cardb {
+  background-color: #282828;
+  border: none;
+}
+.cardtitle {
+  color: aliceblue;
+}
+.cardtext {
+  color: aliceblue;
+}
+.cardimage {
+  width: 100%;
+  height: 100%;
+}
+/* increasing the size of the cards for tablet displays */
+@media (min-width: 820px) and (max-width: 1180px) {
+  /* CSS in here for tablet only */
+  .cardp1 {
+    border: none;
+    width: 35rem;
+    /* margin: 3rem; */
+    padding-left: 0rem;
+    margin: 0.75rem;
+    height: 100%;
+  }
+  .ctab {
+    /* padding-left: 7rem; */
+    margin-left: 7rem;
+    padding-left: 3rem;
+  }
+  .cardb {
+    background-color: #282828;
+    border: none;
+  }
+  .cardtitle {
+    color: aliceblue;
+  }
+  .cardtext {
+    color: aliceblue;
+  }
+  .cardimage {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .ctab {
+    margin: 0rem;
+    /* padding-right: 20rem; */
+  }
+  .cardp1 {
+    border: none;
+    width: 23rem;
+    /* margin: 3rem; */
+    padding-left: 0rem;
+    /* margin: 0.75rem; */
+    height: 100%;
+  }
+}
+
+.dataheading {
+  font-size: 3.5rem;
+  padding: 1rem 1rem 3rem 16.7rem;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .dataheading {
+    padding: 1rem 5rem 3rem 7.4rem;
+  }
+}
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .dataheading {
+    font-size: 2.5rem;
+    padding: 1rem 1rem 3rem 1rem;
+  }
+}
+
+.tab1 {
+  margin: 0;
+  font-size: 3.3rem;
+  padding: 0rem 0rem 1rem 0rem;
+  background-color: #282828;
+  color: whitesmoke;
+}
+.pag1 {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding: 5rem;
+  text-align: justify;
+  font-size: 1rem;
+  padding: 1rem 20rem 2rem 20rem;
+  background-color: #282828;
+  /* color: black; */
+} /* the adjusment */
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .pag1 {
+    /* opacity: 0.4; */
+    margin: 0;
+    padding: 5rem;
+    text-align: justify;
+    font-size: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: #282828;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .pag1 {
+    margin: 0;
+    padding: 5rem;
+    text-align: justify;
+    font-size: 1rem;
+    padding: 1rem 10rem 2rem 10rem;
+    background-color: #282828;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}

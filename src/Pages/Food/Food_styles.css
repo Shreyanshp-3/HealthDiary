@@ -1,0 +1,96 @@
+.feature_Nav {
+    display: flex;
+    padding: 3rem 0rem 7rem 19rem;
+    width: 100%;
+    background-color: #282828;
+    color: whitesmoke;
+  }
+  /* the adjusment */
+  @media (max-width: 768px) {
+    /* CSS in here for mobile only */
+    .feature_Nav {
+      display: flex;
+      padding: 1rem;
+      width: 100%;
+      background-color: #282828;
+      color: whitesmoke;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS in here for tablet only */
+    .feature_Nav {
+      display: flex;
+      padding: 1rem;
+      width: 100%;
+      background-color: #282828;
+      color: whitesmoke;
+    }
+  }
+  
+  .tab1 {
+    margin: 0;
+    font-size: 3.3rem;
+    padding: 0rem 0rem 1rem 0rem;
+    background-color: #282828;
+    color: whitesmoke;
+  }
+  .pag1 {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    padding: 5rem;
+    text-align: justify;
+    font-size: 1rem;
+    padding: 1rem 20rem 2rem 20rem;
+    background-color: #282828;
+    /* color: black; */
+  } /* the adjusment */
+  @media (max-width: 768px) {
+    /* CSS in here for mobile only */
+    .pag1 {
+      /* opacity: 0.4; */
+      margin: 0;
+      padding: 5rem;
+      text-align: justify;
+      font-size: 1rem;
+      padding: 1rem 2rem 2rem 2rem;
+      background-color: #282828;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS in here for tablet only */
+    .pag1 {
+      margin: 0;
+      padding: 5rem;
+      text-align: justify;
+      font-size: 1rem;
+      padding: 1rem 10rem 2rem 10rem;
+      background-color: #282828;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .tab2 {
+    text-decoration: none;
+    padding: 1rem;
+    color: whitesmoke;
+    transition: all 0.2s ease-in-out;
+  }
+  /* the adjusment */
+  @media (max-width: 768px) {
+    /* CSS in here for mobile only */
+    .tab2 {
+      text-decoration: none;
+      padding: 0.5rem;
+      color: whitesmoke;
+      font-size: 1rem;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  
+  .tab2:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(1.4);
+    text-underline-offset: 5px;
+  }

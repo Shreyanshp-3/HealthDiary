@@ -1,0 +1,20 @@
+.searchbox {
+  padding: 2rem 0rem 2rem 0rem;
+}
+.searchbox1 input {
+  margin: 2rem;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 4px 10px 3px #807e7e;
+}
+.searchbox1 input:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.typesearch {
+  padding: 2rem 2rems 2rem 2rem;
+}
+.searchbtn {
+  padding-left: 2rem;
+}
