@@ -14,14 +14,7 @@ const Vegetatian_diet = () => {
 
 
         <p className='pag1'>
-          This page includes all the features and Libraries
-          of different types of Diets present.
-          {/* <br /> */}
-          There are mainly 6 types for health lifestyle.
-          {/* <br /> */}
-          Depending on them the characteristic. Get All the detailed
-          Information about the Diets Given Below and Choose the perfect way to go with the diet.
-          {/* <br /> */}
+
           The articles below discuss Nutrition, Weight Control, Diabetes and provide valuable tips for losing weight healthily.
         </p>
       </center >
@@ -29,7 +22,7 @@ const Vegetatian_diet = () => {
       {/* <br></br> */}
       {/* <br></br> */}
       <div className='maindata'>
-        <h2 className='dataheading'> Planning Weight, Calories & Nutrients</h2>
+        <h2 className='dataheading'> Getting Started</h2>
         <div className='row'>
 
           <div className='col-lg-2'></div>
@@ -38,8 +31,9 @@ const Vegetatian_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={vv1} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
+                <h5 class="card-title cardtitle">Starting a vegetarian diet? 
+                Follow these steps to get maximum benefits</h5>
+                <p class="cardtext">It is essential toa have a roadmap for a healthy and balanced vegetarian plan.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
@@ -49,9 +43,9 @@ const Vegetatian_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={vv2} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">6 Essential nutrients for vegetarians</h5>
+                <p class="cardtext"> Thinking about a vegetarian diet? Here are the six most important nutrients for vegetarians and the supplements you need.</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
 
@@ -66,9 +60,10 @@ const Vegetatian_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={vv3} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">D vegetarian diets give you enough protein</h5>
+                <p class="cardtext">Wondering if you can meet your protein needs from a vegetarian diet?Yes, you
+                you can, and here's how!.</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
           </div>
@@ -77,9 +72,9 @@ const Vegetatian_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={vv4} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">How to prevent Diabetes naturally</h5>
+                <p class="cardtext">Learn how to prevent a type 2 Diabetes naturally by incorporating a plant based diet .</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
 

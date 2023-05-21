@@ -17,22 +17,14 @@ const Keto_diet = () => {
 
 
         <p className='pag1'>
-          This page includes all the features and Libraries
-          of different types of Diets present.
-          {/* <br /> */}
-          There are mainly 6 types for health lifestyle.
-          {/* <br /> */}
-          Depending on them the characteristic. Get All the detailed
-          Information about the Diets Given Below and Choose the perfect way to go with the diet.
-          {/* <br /> */}
-          The articles below discuss Nutrition, Weight Control, Diabetes and provide valuable tips for losing weight healthily.
+          The articles below will help you be successful on your keto plan, learn about nutrition, and gain valuable tips for using MyNetDiary.
         </p>
       </center >
 
       {/* <br></br> */}
       {/* <br></br> */}
       <div className='maindata'>
-        <h2 className='dataheading'> Planning Weight, Calories & Nutrients</h2>
+        <h2 className='dataheading'> Getting Started</h2>
         <div className='row'>
 
           <div className='col-lg-2'></div>
@@ -41,9 +33,10 @@ const Keto_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={k1} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Get started on keto Diet</h5>
+                <p class="cardtext">You done your research and want to get started on a keto diet, but aren't sure where to begin?
+                  Follow these steps</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
           </div>
@@ -52,9 +45,9 @@ const Keto_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={k2} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Monitoring ketones: How do I know I am in ketosis?</h5>
+                <p class="cardtext">Thinking about the monitoring ketones? You may get additional information about this down below</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
 
@@ -69,9 +62,9 @@ const Keto_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={k3} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">These are the top 10 kept foods you should include if you're on the diet</h5>
+                <p class="cardtext">If you're on the keto diet,here are the top 10 keto foods to include.</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
           </div>
@@ -80,9 +73,9 @@ const Keto_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={k4} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">10 Staples to turn your pantry into a healthy source  for a low carb diet </h5>
+                <p class="cardtext">You wont regret putting these tasty staples in your shopping cart</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
 
@@ -102,9 +95,9 @@ const Keto_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={k5} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">keto Food Grade : Helping you find the best keto foods</h5>
+                <p class="cardtext">Need help finding the beset keto Foods?. Follow the below like to get all the resources for keto diet</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
           </div>
@@ -113,8 +106,9 @@ const Keto_diet = () => {
             <div class="card cardp1  border-0" >
               <img src={k6} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
+                <h5 class="card-title cardtitle">Are you missing out on these important keto micronutrients?</h5>
+                <p class="cardtext">Is your  keto diet lacking in micronutrients? Make sure
+                you are getting these important vitamins and minerals if you are following a keto diet.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>

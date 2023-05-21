@@ -13,14 +13,7 @@ const Vegan_Diet = () => {
 
 
                 <p className='pag1'>
-                    This page includes all the features and Libraries
-                    of different types of Diets present.
-                    {/* <br /> */}
-                    There are mainly 6 types for health lifestyle.
-                    {/* <br /> */}
-                    Depending on them the characteristic. Get All the detailed
-                    Information about the Diets Given Below and Choose the perfect way to go with the diet.
-                    {/* <br /> */}
+
                     The articles below discuss Nutrition, Weight Control, Diabetes and provide valuable tips for losing weight healthily.
                 </p>
             </center >
@@ -28,7 +21,7 @@ const Vegan_Diet = () => {
             {/* <br></br> */}
             {/* <br></br> */}
             <div className='maindata'>
-                <h2 className='dataheading'> Planning Weight, Calories & Nutrients</h2>
+                <h2 className='dataheading'>Getting Started</h2>
                 <div className='row'>
 
                     <div className='col-lg-2'></div>
@@ -37,9 +30,9 @@ const Vegan_Diet = () => {
                         <div class="card cardp1  border-0" >
                             <img src={v1} class="cardimage card-img-top" alt="..." />
                             <div class="card-body cardb">
-                                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title cardtitle">Start a vegan diet? Follow these steps to get maximum benefits</h5>
+                                <p class="cardtext">It is essential to have a roadmap  for a healthy and balanced vegan plan.</p>
+                                <a href="#" class="btn btn-primary">Read More!</a>
                             </div>
                         </div>
                     </div>
@@ -48,9 +41,10 @@ const Vegan_Diet = () => {
                         <div class="card cardp1  border-0" >
                             <img src={v2} class="cardimage card-img-top" alt="..." />
                             <div class="card-body cardb">
-                                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title cardtitle">6 Essential nutrients for vegans</h5>
+                                <p class="cardtext">Thinking about a vegan diet? Here are the six most important nutrients
+                                    for vegan and the supplements you might need .</p>
+                                <a href="#" class="btn btn-primary">Read More!</a>
                             </div>
                         </div>
 
@@ -65,8 +59,8 @@ const Vegan_Diet = () => {
                         <div class="card cardp1  border-0" >
                             <img src={v3} class="cardimage card-img-top" alt="..." />
                             <div class="card-body cardb">
-                                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
+                                <h5 class="card-title cardtitle">Do vegan diets give you enough protein</h5>
+                                <p class="cardtext">Here are our favorite plant based proof sources that will fill and fuel you.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
@@ -76,9 +70,10 @@ const Vegan_Diet = () => {
                         <div class="card cardp1  border-0" >
                             <img src={v4} class="cardimage card-img-top" alt="..." />
                             <div class="card-body cardb">
-                                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title cardtitle">Curious how to use tofu in more tasty ways?
+                                Check out these 5 meal  ideas!</h5>
+                                <p class="cardtext">Tofu is versatile, nutritious and adapts well to many different kind of recipes .</p>
+                                <a href="#" class="btn btn-primary">Read More!</a>
                             </div>
                         </div>
 

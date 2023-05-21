@@ -17,22 +17,14 @@ const Low_calorie = () => {
 
 
         <p className='pag1'>
-          This page includes all the features and Libraries
-          of different types of Diets present.
-          {/* <br /> */}
-          There are mainly 6 types for health lifestyle.
-          {/* <br /> */}
-          Depending on them the characteristic. Get All the detailed
-          Information about the Diets Given Below and Choose the perfect way to go with the diet.
-          {/* <br /> */}
-          The articles below discuss Nutrition, Weight Control, Diabetes and provide valuable tips for losing weight healthily.
+          The articles below will help you be successful with your low-carb plan, learn about nutrition, and gain valuable tips for using MyNetDiary.
         </p>
       </center >
 
       {/* <br></br> */}
       {/* <br></br> */}
       <div className='maindata'>
-        <h2 className='dataheading'> Planning Weight, Calories & Nutrients</h2>
+        <h2 className='dataheading'> Getting Started</h2>
         <div className='row'>
 
           <div className='col-lg-2'></div>
@@ -41,9 +33,10 @@ const Low_calorie = () => {
             <div class="card cardp1  border-0" >
               <img src={l1} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Starting Low-Carb Diet : 5 Steps for Success</h5>
+                <p class="cardtext">Whether you are starting a low carb diet for weight loss or blodd sygar
+                  level. Follow these 5 steps to maximize your success.</p>
+                <a href="sda" class="btn btn-primary">Read More !</a>
               </div>
             </div>
           </div>
@@ -52,9 +45,11 @@ const Low_calorie = () => {
             <div class="card cardp1  border-0" >
               <img src={l2} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">10 Staples to turn your pantry healthy source for a
+                  low carb lifestyle</h5>
+                <p class="cardtext">You won't regret putting these tasty
+                  Staples in your shopping cart</p>
+                <a href="sdsa" class="btn btn-primary">Read More !</a>
               </div>
             </div>
 
@@ -69,9 +64,9 @@ const Low_calorie = () => {
             <div class="card cardp1  border-0" >
               <img src={l3} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Low Carb Food Grade</h5>
+                <p class="cardtext">Need help finding healthy low carb foods? This might help you !</p>
+                <a href="asda" class="btn btn-primary">Read More !</a>
               </div>
             </div>
           </div>
@@ -80,9 +75,10 @@ const Low_calorie = () => {
             <div class="card cardp1  border-0" >
               <img src={l4} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
+                <h5 class="card-title cardtitle">Are you missing out on these important vitamins
+                and minerals if you are following a low carb diet</h5>
                 <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="asdw" class="btn btn-primary">Read More !</a>
               </div>
             </div>
 

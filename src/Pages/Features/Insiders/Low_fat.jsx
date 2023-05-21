@@ -16,14 +16,7 @@ const Low_fat = () => {
 
 
         <p className='pag1'>
-          This page includes all the features and Libraries
-          of different types of Diets present.
-          {/* <br /> */}
-          There are mainly 6 types for health lifestyle.
-          {/* <br /> */}
-          Depending on them the characteristic. Get All the detailed
-          Information about the Diets Given Below and Choose the perfect way to go with the diet.
-          {/* <br /> */}
+
           The articles below discuss Nutrition, Weight Control, Diabetes and provide valuable tips for losing weight healthily.
         </p>
       </center >
@@ -31,7 +24,7 @@ const Low_fat = () => {
       {/* <br></br> */}
       {/* <br></br> */}
       <div className='maindata'>
-        <h2 className='dataheading'> Planning Weight, Calories & Nutrients</h2>
+        <h2 className='dataheading'> Getting Started</h2>
         <div className='row'>
 
           <div className='col-lg-2'></div>
@@ -40,9 +33,9 @@ const Low_fat = () => {
             <div class="card cardp1  border-0" >
               <img src={lf1} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Starting a low fat eating plan? 6 steps for success</h5>
+                <p class="cardtext">Whether you are following a low fat diet for weight loss, My health diary is here to help you...</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
           </div>
@@ -51,9 +44,9 @@ const Low_fat = () => {
             <div class="card cardp1  border-0" >
               <img src={lf2} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Dietary fats</h5>
+                <p class="cardtext">Learn about the different types of fats and how to make healthier food choices.</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
 
@@ -68,9 +61,9 @@ const Low_fat = () => {
             <div class="card cardp1  border-0" >
               <img src={lf3} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Plate method for meal planning </h5>
+                <p class="cardtext">Try this fool proof method for limiting extra fats and calories.</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
           </div>
@@ -79,9 +72,9 @@ const Low_fat = () => {
             <div class="card cardp1  border-0" >
               <img src={lf4} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Want to cook without oil? How to  ditch the oil for every cooking method</h5>
+                <p class="cardtext">Believe or not, its not hard to cook without oil.Here are out best tips and tricks</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
 
@@ -101,9 +94,9 @@ const Low_fat = () => {
             <div class="card cardp1  border-0" >
               <img src={lf5} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Planning Weight & calories</h5>
-                <p class="cardtext">Discover how calories planning works at My Fitness App to help your weight goal.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">Say no to bland food</h5>
+                <p class="cardtext">Try these tips for cooking with herbs and spices.</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
           </div>
@@ -112,9 +105,9 @@ const Low_fat = () => {
             <div class="card cardp1  border-0" >
               <img src={lf6} class="cardimage card-img-top" alt="..." />
               <div class="card-body cardb">
-                <h5 class="card-title cardtitle">Develop a personalized nitrition plan</h5>
-                <p class="cardtext">Learn how to customize you targets and track more than 50000 nutrients with My fitness .</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title cardtitle">How to make healthy home cooking easier</h5>
+                <p class="cardtext">Set up your kitchen for success!</p>
+                <a href="#" class="btn btn-primary">Read More!</a>
               </div>
             </div>
 
