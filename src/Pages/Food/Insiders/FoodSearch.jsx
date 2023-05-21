@@ -97,7 +97,11 @@ const FoodSearch = () => {
   });
 
   return (
-    <div>
+    <>
+    <center><h3 className='dataph'>
+      Here we can search any kind of food ingredients and get the 
+      nutrient value of the ingredient in every kind of food / recipe
+    </h3></center>
       <center>
 
         <form className='searchbox' onSubmit={handleSubmit}>
@@ -139,7 +143,7 @@ const FoodSearch = () => {
 
 
 
-    </div>
+    </>
   );
 }
 
