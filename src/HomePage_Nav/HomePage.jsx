@@ -94,7 +94,7 @@ const HomePage = () => {
                         </center>
                         <div className="row cardsrow">
                             <div className="col-lg-1"></div>
-                            <div className="col-lg-3 fcard col-md-6">
+                            <div className="col-lg-3  col-md-4">
                                 <center>
                                     <div className="card cardt ">
                                         <img src={c1} className="card-img-top" alt="..." />
@@ -106,7 +106,7 @@ const HomePage = () => {
                                     </div>
                                 </center>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-3 col-md-4">
                                 <center>
                                     <div className="card cardt" >
                                         <img src={c2} className="card-img-top" alt="..." />
@@ -119,7 +119,7 @@ const HomePage = () => {
                                     </div>
                                 </center>
                             </div>
-                            <div className="col-lg-3 col-md-12 gcard">
+                            <div className="col-lg-3 col-md-4 ">
                                 <center>
                                     <div className="card cardt" >
                                         <img src={c3} className="card-img-top" alt="..." />
@@ -133,7 +133,7 @@ const HomePage = () => {
                                     </div>
                                 </center>
                             </div>
-                            <div className="col-lg-1"></div>
+                            {/* <div className="col-lg-1"></div> */}
 
                         </div>
                     </div>
@@ -148,7 +148,7 @@ const HomePage = () => {
                         <center>
                             <h1 className="heading3">Recipies and Inspiration</h1>
                             <div className="row">
-                                <div className="col-lg-4 col-md-6"></div>
+                                <div className="col-lg-4 col-md-4"></div>
                                 <div className="col-lg-4">
                                     <p className="para3">
                                         Get nutritionist-approved recipes and motivational workout tips from MyFitnessPal experts.
@@ -160,7 +160,7 @@ const HomePage = () => {
                         </center>
                         <div className="row cardsrow">
                             <div className="col-lg-1"></div>
-                            <div className="col-lg-3 fcard col-md-6">
+                            <div className="col-lg-3  col-md-4">
                                 <center>
                                     <div className="card card2 ">
                                         <img src={r1} className="card-img-top newimg" alt="..." />
@@ -173,7 +173,7 @@ const HomePage = () => {
                                     </div>
                                 </center>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-3 col-md-4">
                                 <center>
                                     <div className="card card2">
                                         <img src={r2} className="card-img-top newimg" alt="..." />
@@ -186,7 +186,7 @@ const HomePage = () => {
                                     </div>
                                 </center>
                             </div>
-                            <div className="col-lg-3 col-md-12 gcard">
+                            <div className="col-lg-3 col-md-4 ">
                                 <center>
                                     <div className="card card2">
                                         <img src={r3} className="card-img-top newimg" alt="..." />

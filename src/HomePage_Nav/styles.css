@@ -1,3 +1,6 @@
+.body{
+  overflow-x: hidden;
+}
 /* Set the border color to the desired color */
 .custom-toggler.navbar-toggler {
   border-color: white;
