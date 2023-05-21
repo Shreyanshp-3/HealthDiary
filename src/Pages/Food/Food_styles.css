@@ -1,96 +1,174 @@
 .feature_Nav {
+  display: flex;
+  padding: 3rem 0rem 4rem 19rem;
+  width: 100%;
+  background-color: #282828;
+  color: whitesmoke;
+}
+/* the adjusment */
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
+  .feature_Nav {
     display: flex;
-    padding: 3rem 0rem 7rem 19rem;
+    padding: 1rem;
     width: 100%;
+    padding: 2rem 0rem 4rem 0.7rem;
+
     background-color: #282828;
     color: whitesmoke;
   }
-  /* the adjusment */
-  @media (max-width: 768px) {
-    /* CSS in here for mobile only */
-    .feature_Nav {
-      display: flex;
-      padding: 1rem;
-      width: 100%;
-      background-color: #282828;
-      color: whitesmoke;
-    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .feature_Nav {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    background-color: #282828;
+    color: whitesmoke;
+    padding: 3rem 0rem 7rem 8rem;
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    /* CSS in here for tablet only */
-    .feature_Nav {
-      display: flex;
-      padding: 1rem;
-      width: 100%;
-      background-color: #282828;
-      color: whitesmoke;
-    }
-  }
-  
+}
+
+.tab1 {
+  margin: 0;
+  font-size: 4rem;
+  padding: 3rem 0rem 1rem 0rem;
+  background-color: #282828;
+  color: whitesmoke;
+}
+@media (max-width: 768px) {
   .tab1 {
     margin: 0;
-    font-size: 3.3rem;
+    font-size: 2.5rem;
     padding: 0rem 0rem 1rem 0rem;
     background-color: #282828;
     color: whitesmoke;
   }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .tab1 {
+    margin: 0;
+    font-size: 3rem;
+    padding: 0rem 1rem 1rem 1rem;
+    background-color: #282828;
+    color: whitesmoke;
+  }
+}
+.pag1 {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding: 5rem;
+  text-align: justify;
+  font-size: 1.33rem;
+  padding: 1rem 20rem 2rem 20rem;
+  background-color: #282828;
+} /* the adjusment */
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
   .pag1 {
-    color: rgba(255, 255, 255, 0.7);
+    /* opacity: 0.4; */
     margin: 0;
     padding: 5rem;
     text-align: justify;
     font-size: 1rem;
-    padding: 1rem 20rem 2rem 20rem;
+    padding: 1rem 2rem 2rem 2rem;
     background-color: #282828;
-    /* color: black; */
-  } /* the adjusment */
-  @media (max-width: 768px) {
-    /* CSS in here for mobile only */
-    .pag1 {
-      /* opacity: 0.4; */
-      margin: 0;
-      padding: 5rem;
-      text-align: justify;
-      font-size: 1rem;
-      padding: 1rem 2rem 2rem 2rem;
-      background-color: #282828;
-      color: rgba(255, 255, 255, 0.7);
-    }
+    color: rgba(255, 255, 255, 0.7);
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    /* CSS in here for tablet only */
-    .pag1 {
-      margin: 0;
-      padding: 5rem;
-      text-align: justify;
-      font-size: 1rem;
-      padding: 1rem 10rem 2rem 10rem;
-      background-color: #282828;
-      color: rgba(255, 255, 255, 0.7);
-    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS in here for tablet only */
+  .pag1 {
+    margin: 0;
+    padding: 5rem;
+    text-align: justify;
+    font-size: 1rem;
+    padding: 1rem 10rem 2rem 10rem;
+    background-color: #282828;
+    color: rgba(255, 255, 255, 0.7);
   }
-  
+}
+
+.tab2 {
+  text-decoration: none;
+  padding: 1rem;
+  color: whitesmoke;
+  transition: all 0.2s ease-in-out;
+}
+/* the adjusment */
+@media (max-width: 768px) {
+  /* CSS in here for mobile only */
   .tab2 {
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     color: whitesmoke;
+    font-size: 1rem;
     transition: all 0.2s ease-in-out;
   }
-  /* the adjusment */
-  @media (max-width: 768px) {
-    /* CSS in here for mobile only */
-    .tab2 {
-      text-decoration: none;
-      padding: 0.5rem;
-      color: whitesmoke;
-      font-size: 1rem;
-      transition: all 0.2s ease-in-out;
-    }
+}
+
+.tab2:hover {
+  text-decoration: underline;
+  color: white;
+  /* transform: scale(1.4); */
+  text-underline-offset: 5px;
+}
+
+/* that css for the main page of the food data */
+/*  THE MAIN DATA PAFE */
+.bodya {
+  background-color: #282828;
+  color: white;
+  padding: 1rem 20rem 1rem 20rem;
+}
+@media (max-width: 768px) {
+  .bodya {
+    padding: 1rem 2rem 1rem 2rem;
   }
-  
-  .tab2:hover {
-    text-decoration: underline;
-    color: white;
-    transform: scale(1.4);
-    text-underline-offset: 5px;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bodya {
+    padding: 1rem 10rem 1rem 10rem;
   }
+}
+.datahead {
+  font-size: 3.3rem;
+  padding: 0rem 1rem 1rem 1rem;
+}
+@media (max-width: 768px) {
+  .datahead {
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .datahead {
+  }
+}
+/* paragraph */
+.datapara {
+  color: rgba(255, 255, 255, 0.5);
+
+}
+@media (max-width: 768px) {
+  .datapara {
+    text-underline-position: 5px solid;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .datapara {
+  }
+}
+
+.datalist {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+@media (max-width: 768px) {
+  .datalist {
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .datalist {
+  }
+}

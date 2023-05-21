@@ -20,7 +20,7 @@
 }
 
 .dataph {
-  padding:0rem 20rem 4rem 20rem;
+  padding: 0rem 20rem 4rem 20rem;
   background-color: #282828;
   color: aliceblue;
 }
@@ -28,7 +28,7 @@
 @media (max-width: 768px) {
   /* CSS in here for mobile only */
   .dataph {
-    padding:1rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     background-color: #282828;
     color: aliceblue;
   }
@@ -36,8 +36,9 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   /* CSS in here for tablet only */
   .dataph {
-    padding:1rem 10rem 4rem 10rem;
+    padding: 1rem 10rem 4rem 10rem;
     background-color: #282828;
     color: aliceblue;
   }
 }
+

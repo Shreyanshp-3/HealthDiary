@@ -12,20 +12,21 @@ const navgiate  = useNavigate();
        <>
       <nav>
         <center >
-          <h4 className='tab1'>Food Information / Nutrition</h4>
+          <h4 className='tab1'>Food Information / Nutrition / Recipes</h4>
 
 
           <p className='pag1'>
-            This page includes all the features and Libraries
-            of different types of Diets present.
+            This page includes all the Information about the recipes and their ingredients.
             {/* <br /> */}
+            Which ingredients in which recipes contains what amount of the nutrition value.
+
             {/* <br /> */}
-            There are mainly 6 types for health lifestyle.
-            {/* <br /> */}
-            Depending on them the characteristic. Get All the detailed
-            Information about the Diets Given Below and Choose the perfect way to go with the diet.
-            {/* <br /> */}
-            The articles below discuss Nutrition, Weight Control, Diabetes and provide valuable tips for losing weight healthily.
+            These also include how to use the information according to the need <br></br>
+            This has the different kind of recipes as per the information given to it.
+            <br />
+            All the recipes are sorted in a Unique way that gets easier to access them according to the need.
+            
+   
           </p>
         </center>
         <div className='feature_Nav'>
@@ -33,7 +34,8 @@ const navgiate  = useNavigate();
 
           <h4 style={{ float: 'right' }} className='tab2' onClick={() => navgiate(`/food/FoodSearch`)}>FoodSearch</h4>
           <h4 className='tab2' onClick={() => navgiate(`/food/Howto`)}>How to search</h4>
-          <h4 className='tab2' onClick={() => navgiate(`/food/Nutrition`)}>Keto Diet</h4>
+          <h4 className='tab2' onClick={() => navgiate(`/food/Nutrition`)}>Recipes</h4>
+          <h4 className='tab2' onClick={() => navgiate(`/food/Nutrition`)}>Diet Plans</h4>
 
 
         </div>
