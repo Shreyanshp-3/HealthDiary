@@ -101,6 +101,7 @@
 .maindata {
   background-color: #282828;
   color: aliceblue;
+  overflow-x: hidden;
 }
 .cardp1 {
   border: none;

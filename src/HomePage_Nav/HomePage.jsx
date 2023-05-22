@@ -22,6 +22,7 @@ import r3 from './Images/r3.webp';
 
 
 const HomePage = () => {
+
     return (
         <>
 
@@ -42,7 +43,9 @@ const HomePage = () => {
                                     </p>
                                     <br></br>
                                     <center>
-                                        <button type="button" className="btn1 btn btn-primary">Get Started</button>
+                                        <button onClick={() => (
+                                            alert("Lets start Exploring the pages in the Menu")
+                                        )} type="button" className="btn1 btn btn-primary">Get Started</button>
 
                                     </center>
                                 </center>
@@ -146,12 +149,12 @@ const HomePage = () => {
                 <section className="congrats">
                     <div className="container-fluid4">
                         <center>
-                            <h1 className="heading3">Recipies and Inspiration</h1>
+                            <h1 className="heading3">Recipes and Inspiration</h1>
                             <div className="row">
                                 <div className="col-lg-4 col-md-4"></div>
                                 <div className="col-lg-4">
                                     <p className="para3">
-                                        Get nutritionist-approved recipes and motivational workout tips from MyFitnessPal experts.
+                                        Get nutritionist approved recipes and motivational workout tips from MyHealthDiary expert.
                                         Get their goals achieved, Get inspired for the journey ahead
                                     </p>
                                 </div>
@@ -165,10 +168,9 @@ const HomePage = () => {
                                     <div className="card card2 ">
                                         <img src={r1} className="card-img-top newimg" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the
-                                                bulk
-                                                of the card's content.</p>
+                                            <h5 className="card-title">Eat What you know!</h5>
+                                            <p className="card-text">Rather than eating something told by other peoples
+                                                do a proper research and then add it to the diet</p>
                                         </div>
                                     </div>
                                 </center>
@@ -178,10 +180,9 @@ const HomePage = () => {
                                     <div className="card card2">
                                         <img src={r2} className="card-img-top newimg" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the
-                                                bulk
-                                                of the card's content.</p>
+                                            <h5 className="card-title">Suitable food</h5>
+                                            <p className="card-text">Check what all is Suitable for your Health.
+                                                Add all the essentials in the diet plans and follow it</p>
                                         </div>
                                     </div>
                                 </center>
@@ -191,10 +192,9 @@ const HomePage = () => {
                                     <div className="card card2">
                                         <img src={r3} className="card-img-top newimg" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the
-                                                bulk
-                                                of the card's content.</p>
+                                            <h5 className="card-title">Expert Advise</h5>
+                                            <p className="card-text">If you dont know what to do further, you can just take the expert
+                                                advise and follow it to reach the goal</p>
                                         </div>
                                     </div>
                                 </center>
@@ -218,11 +218,11 @@ const HomePage = () => {
                                 <div className="col-lg-3 col-md-6"></div>
                                 <div className="col-lg-6">
                                     <p className="para4">
-                                        MyFitnessPal is one of the best weight loss apps and fitness apps, helping nearly 1 million
+                                        MyHealthDiary is one of the best weight loss apps and fitness apps, helping nearly hundreds
                                         members reach their nutrition and fitness goals every year. Members use it as a calories
                                         tracker and calorie counter to log their foods, and take advantage of the app’s food
                                         database that contains over 14 million foods. It’s not just a free calorie counter app —
-                                        it’s also the best calorie counter app for people who are looking to take back control of
+                                        it’s also the best calorie app, fitness app, diseases recognition for people who are looking to take back control of
                                         their health and fitness.
                                     </p>
                                 </div>

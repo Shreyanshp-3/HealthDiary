@@ -98,10 +98,10 @@ const FoodSearch = () => {
 
   return (
     <>
-    <center><h3 className='dataph'>
-      Here we can search any kind of food ingredients and get the 
-      nutrient value of the ingredient in every kind of food / recipe
-    </h3></center>
+      <center><h3 className='dataph'>
+        Here we can search any kind of food ingredients and get the
+        nutrient value of the ingredient in every kind of food / recipe
+      </h3></center>
       <center>
 
         <form className='searchbox' onSubmit={handleSubmit}>
@@ -116,31 +116,43 @@ const FoodSearch = () => {
 
       <div class="container">
 
+
         <div class="table">
-          <div class="table-header">
-            <div class="header__item"><a id="name" class="filter__link" href="#">Name</a></div>
-            <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Energy_kcal</a></div>
-            <div class="header__item"><a id="draws" class="filter__link filter__link--number" href="#">Protein_g</a></div>
-            <div class="header__item"><a id="losses" class="filter__link filter__link--number" href="#">Saturated_fats_g</a></div>
+
+          <div class=" table-header">
+            <div class="header__item "><a id="name" class="filter__link" href="#">Name</a></div>
+            <div class="header__item "><a id="wins" class="filter__link filter__link--number" href="#">Energy_kcal</a></div>
+            <div class="header__item "><a id="draws" class="filter__link filter__link--number" href="#">Protein_g</a></div>
+            <div class="header__item "><a id="losses" class="filter__link filter__link--number" href="#">Saturated_fats_g</a></div>
             <div class="header__item"><a id="total" class="filter__link filter__link--number" href="#">Fat_g</a></div>
             <div class="header__item"><a id="total" class="filter__link filter__link--number" href="#">Carb_g</a></div>
           </div>
+          {/* <div class=" table-header">
+            <div class="header__item ">Name</div>
+            <div class="header__item ">Energy_kcal</div>
+            <div class="header__item ">Protein_g</div>
+            <div class="header__item ">Saturated_fats_g</div>
+            <div class="header__item ">Fat_g</div>
+            <div class="header__item ">Carb_g</div>
+    
+          </div> */}
           <div class="table-content">
             {data.map(item => (
-              <div class="table-row">
-                <div class="table-data">{item.Descrip}</div>
-                <div class="table-data">{item.Energy_kcal}</div>
-                <div class="table-data">{item.Protein_g}</div>
-                <div class="table-data">{item.Saturated_fats_g}</div>
-                <div class="table-data">{item.Fat_g}</div>
-                <div class="table-data">{item.Carb_g}</div>
+              <div class="tr table-row">
+                <div class="table-data ">{item.Descrip}</div>
+                <div class="table-data ">{item.Energy_kcal}</div>
+                <div class="table-data ">{item.Protein_g}</div>
+                <div class="table-data ">{item.Saturated_fats_g}</div>
+                <div class="table-data ">{item.Fat_g}</div>
+                <div class="table-data ">{item.Carb_g}</div>
               </div>
             ))}
 
           </div>
         </div>
-      </div>
 
+      
+      </div>
 
 
     </>

@@ -1,4 +1,6 @@
 import React from 'react'
+import './Fstyles.css'
+
 
 import m1 from './MainImages/m1.jpg';
 import m2 from './MainImages/m2.jpeg';

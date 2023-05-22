@@ -42,3 +42,61 @@
   }
 }
 
+/* that tabel design one making it scroll for the mobile view */
+
+/* table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+table tbody {
+  display: table;
+  width: 100%;
+} */
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+} */
+
+/* td {
+  border: 1px solid black;
+} */
+
+/* try removing the "hack" below to see how the table overflows the .body */
+/* .hack1 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.hack2 {
+  display: table-cell;
+  overflow-x: auto;
+  width: 100%;
+} */
+/* .table {
+  table-layout: fixed;
+
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+} */
+
+
+ table {
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.table-header{
+  /* display: block; */
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.table-content{
+  /* display:; */
+  overflow-x: scroll;
+  white-space: nowrap;
+}
