@@ -277,6 +277,7 @@
 .cardt {
   border: none;
   margin: auto;
+  padding: 0;
   width: 22rem;
 }
 @media (max-width: 768px) {
@@ -298,21 +299,21 @@
   width: 22rem;
   margin:0rem;
   
-  box-shadow: 1px 2px #d6d7d8;
+  box-shadow: 1px 1px #d6d7d8;
 }
 @media (max-width: 768px) {
   .card2 {
     width: 16rem;
     margin:1rem 1rem 1rem 1rem;
 
-    box-shadow: 1px 2px #d6d7d8;
+    box-shadow: 1px 1px #d6d7d8;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .card2 {
     width: 16rem;
     margin: 0.4rem;
-    box-shadow: 1px 2px #d6d7d8;
+    box-shadow: 1px 1spx #d6d7d8;
   }
 }
 

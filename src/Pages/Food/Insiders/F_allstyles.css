@@ -84,19 +84,139 @@ table tbody {
   white-space: nowrap;
 } */
 
-
- table {
+table {
   display: block;
   overflow-x: scroll;
   white-space: nowrap;
 }
-.table-header{
+.table-header {
   /* display: block; */
   overflow-x: scroll;
   white-space: nowrap;
 }
-.table-content{
+.table-content {
   /* display:; */
   overflow-x: scroll;
   white-space: nowrap;
 }
+
+/* the main data of the how to use age */
+/*  THE MAIN DATA PAFE */
+.bodya {
+  background-color: #282828;
+  color: white;
+  padding: 1rem 20rem 1rem 20rem;
+}
+@media (max-width: 768px) {
+  .bodya {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bodya {
+    padding: 1rem 10rem 1rem 10rem;
+  }
+}
+.datahead {
+  font-size: 3.3rem;
+  padding: 0rem 1rem 1rem 1rem;
+}
+@media (max-width: 768px) {
+  .datahead {
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .datahead {
+  }
+}
+/* paragraph */
+.datapara {
+  color: rgba(255, 255, 255, 0.5);
+}
+.datap{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .datapara {
+    text-underline-position: 5px solid;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .datapara {
+  }
+}
+
+.datalist {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+
+/* that design for the cards stuff of the recipe */
+.cardi {
+  width: 30rem;
+  padding: 0rem;
+  margin: 0rem 10rem 5rem -5rem;
+}
+/* the adjusment */
+@media (max-width: 768px) {
+  .cardi {
+    width: 22rem;
+    padding: 0rem;
+    margin: 0rem 0rem 3rem -0.7rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cardi {
+    width: 33rem;
+    padding: 0rem;
+    margin: 0rem 0rem 3rem -1rem;
+  }
+}
+
+.charts {
+  background-color: #282828;
+  color: white;
+  padding: 1rem 15rem 2rem 20rem;
+}
+@media (max-width: 768px) {
+  .charts {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .charts {
+    padding: 1rem 10rem 1rem 10rem;
+  }
+}
+
+/* lajdfadfadfadfa */
+.imgc {
+  width: 100%;
+  height: 20rem;
+}
+@media (max-width: 768px) {
+  .imgc {
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .imgc {
+  }
+}
+
+.card-body {
+  background-color: #282828;
+  color: white;
+}
+.card-title {
+  font-size: 2.7rem;
+  color: white;
+}
+.card-text {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+

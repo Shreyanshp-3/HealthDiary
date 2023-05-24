@@ -102,8 +102,8 @@ const HomePage = () => {
                                     <div className="card cardt ">
                                         <img src={c1} className="card-img-top" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Learn. Track. Improve.</h5>
-                                            <p className="card-text">Keeping a food diary helps you understand your habits and increases
+                                            <h5 className="card-titles">Learn. Track. Improve.</h5>
+                                            <p className="card-texts">Keeping a food diary helps you understand your habits and increases
                                                 your likelihood of hitting your goals</p>
                                         </div>
                                     </div>
@@ -114,9 +114,9 @@ const HomePage = () => {
                                     <div className="card cardt" >
                                         <img src={c2} className="card-img-top" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Logging Simplified.
+                                            <h5 className="card-titles">Logging Simplified.
                                             </h5>
-                                            <p className="card-text">Scan barcodes, save meals and recipes, and use Quick Tools for fast
+                                            <p className="card-texts">Scan barcodes, save meals and recipes, and use Quick Tools for fast
                                                 and easy food tracking. Save the Daily data</p>
                                         </div>
                                     </div>
@@ -127,10 +127,10 @@ const HomePage = () => {
                                     <div className="card cardt" >
                                         <img src={c3} className="card-img-top" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Stay Motivated.
+                                            <h5 className="card-titles">Stay Motivated.
 
                                             </h5>
-                                            <p className="card-text">Join the World's Largest Fitness Community for advice, tips, and
+                                            <p className="card-texts">Join the World's Largest Fitness Community for advice, tips, and
                                                 propper support. Keep yourself always motivated</p>
                                         </div>
                                     </div>
@@ -168,8 +168,8 @@ const HomePage = () => {
                                     <div className="card card2 ">
                                         <img src={r1} className="card-img-top newimg" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Eat What you know!</h5>
-                                            <p className="card-text">Rather than eating something told by other peoples
+                                            <h5 className="card-titles">Eat What you know!</h5>
+                                            <p className="card-texts">Rather than eating something told by other peoples
                                                 do a proper research and then add it to the diet</p>
                                         </div>
                                     </div>
@@ -180,8 +180,8 @@ const HomePage = () => {
                                     <div className="card card2">
                                         <img src={r2} className="card-img-top newimg" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Suitable food</h5>
-                                            <p className="card-text">Check what all is Suitable for your Health.
+                                            <h5 className="card-titles">Suitable food</h5>
+                                            <p className="card-texts">Check what all is Suitable for your Health.
                                                 Add all the essentials in the diet plans and follow it</p>
                                         </div>
                                     </div>
@@ -192,8 +192,8 @@ const HomePage = () => {
                                     <div className="card card2">
                                         <img src={r3} className="card-img-top newimg" alt="..." />
                                         <div className="card-body">
-                                            <h5 className="card-title">Expert Advise</h5>
-                                            <p className="card-text">If you dont know what to do further, you can just take the expert
+                                            <h5 className="card-titles">Expert Advise</h5>
+                                            <p className="card-texts">If you dont know what to do further, you can just take the expert
                                                 advise and follow it to reach the goal</p>
                                         </div>
                                     </div>
