@@ -151,7 +151,7 @@ const FoodSearch = () => {
           </div>
         </div>
 
-      
+
       </div>
 
 

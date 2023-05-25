@@ -9,9 +9,12 @@
     --tenne-tawny: #d65108;
     --tenne-tawny-dark: #b54507;
 }
-body{
+.bodyr{
+    padding:1rem 15rem 1rem 15rem;
     font-weight: 300;
     font-size: 1.05rem;
+    background-color: #282828;
+    color:white;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
 }
@@ -28,6 +31,7 @@ body{
 }
 .title{
     font-size: 2rem;
+    color: white;
     margin-bottom: 1rem;
 }
 
@@ -39,7 +43,7 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
-    background: #fff;
+    background: #282828;
     text-align: center;
 }
 .meal-search{
@@ -51,11 +55,17 @@ body{
 .meal-search-box{
     margin: 1.2rem 0;
     display: flex;
+    color: white;
     align-items: stretch;
 }
 .search-control,
 .search-btn{
     width: 100%;
+    color: white;
+}
+.fas{
+    color: white;
+    /* background-color: white; */
 }
 .search-control{
     padding: 0 1rem;

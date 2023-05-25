@@ -23,6 +23,10 @@ import Food_Data from "./Pages/Food/Food_Data";
 import FoodSearch from './Pages/Food/Insiders/FoodSearch';
 import Howto from './Pages/Food/Insiders/Howto';
 import Nutrition from './Pages/Food/Insiders/Nutrition';
+// import R1 from "./Pages/Food/Insiders/allrecipes/R1.jsx";
+import Rone from './Pages/Food/Insiders/allrecipes/Rone';
+//inside the recipe page
+// import R1 from './Pages/Food/Insiders/allrec';
 
 function App() {
   return (
@@ -60,6 +64,7 @@ function App() {
               <Route exact path="/food/FoodSearch" element={<Food_Nav />} />
               <Route exact path="/food/Howto" element={<Food_Nav />} />
               <Route exact path="/food/Nutrition" element={<Food_Nav />} />
+              <Route exact path="/food/Nutrition/Rone" element={<Food_Nav />} />
 
 
             </Routes>
@@ -86,6 +91,8 @@ function App() {
               <Route exact path="/food/FoodSearch" element={<FoodSearch />} />
               <Route exact path="/food/Howto" element={<Howto />} />
               <Route exact path="/food/Nutrition" element={<Nutrition />} />
+              <Route exact path="/food/Nutrition/Rone" element={<Rone />} />
+
             </Routes>
 
           </div>

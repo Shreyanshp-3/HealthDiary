@@ -1,5 +1,9 @@
 import React from 'react'
 import './F_allstyles.css'
+import '../Food_styles.css'
+
+import { useNavigate } from 'react-router-dom'
+
 
 
 import one from './Images/newfirst.jpeg';
@@ -9,6 +13,8 @@ import four from './Images/new4.jpg';
 
 
 const Nutrition = () => {
+  const navgiate  = useNavigate();
+
   return (
     <>
       <div className='bodya'>
@@ -42,7 +48,9 @@ const Nutrition = () => {
               <div class="card-body">
                 <h5 class="card-title">Any Recipes from whole world</h5>
                 <p class="card-text">Here we can get any recipes from the world just by its Ingredients with whole Tutorial</p>
-                <a href="./index.html" class="btn btn-outline-primary">Go somewhere</a>
+                {/* <a href="" target="_blank" class="btn btn-outline-primary">Recipes</a> */}
+                <h4 className='tab2 btn btn-outline-primary' onClick={() => navgiate(`/food/Nutrition/Rone`)}>Recipes</h4>
+
               </div>
             </div>
           </div>
@@ -53,7 +61,7 @@ const Nutrition = () => {
               <div class="card-body">
                 <h5 class="card-title">Any Recipes with the specific amount of calories in it</h5>
                 <p class="card-text">Here we can get any recipes from the world just by its Ingredients and mentioning the amount of calorie with whole Tutorial.</p>
-                <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                <a href="" class="btn btn-outline-primary">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -87,6 +95,10 @@ const Nutrition = () => {
         </div>
       </div>
 
+
+
+
+      {/* to get the recipe page in a react page  */}
     </>
   )
 }

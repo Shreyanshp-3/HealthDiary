@@ -1,3 +1,5 @@
+
+
 .searchbox {
   padding: 2rem 0rem 2rem 0rem;
 }
@@ -133,7 +135,7 @@ table {
 .datapara {
   color: rgba(255, 255, 255, 0.5);
 }
-.datap{
+.datap {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.3rem;
 }
@@ -153,7 +155,6 @@ table {
   font-size: 1.2rem;
   line-height: 2.2rem;
 }
-
 
 /* that design for the cards stuff of the recipe */
 .cardi {
@@ -219,4 +220,3 @@ table {
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.8);
 }
-
