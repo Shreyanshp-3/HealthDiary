@@ -26,7 +26,7 @@ const DietPlanner = () => {
  const generateDietPlanner = async()=>{
    try {
    dc.innerHTML = 'Processing Your Diet PLan';
-    const response = await fetch("http://localhost:1000/", {
+    const response = await fetch("https://healthbackend.onrender.com/", {
          method: "POST",
          headers: {
            "Content-Type": "application/json",
